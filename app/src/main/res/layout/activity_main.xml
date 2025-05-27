@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/inputUnidades"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Unidades por hora" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intervalo: "
+        android:paddingTop="8dp" />
+
+    <Button
+        android:id="@+id/botonIniciar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Iniciar" />
+
+    <Button
+        android:id="@+id/subirVolumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subir volumen" />
+
+    <Button
+        android:id="@+id/bajarVolumen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bajar volumen" />
+</LinearLayout>
